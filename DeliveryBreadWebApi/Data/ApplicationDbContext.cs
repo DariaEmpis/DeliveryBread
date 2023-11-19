@@ -10,11 +10,11 @@ namespace DeliveryBreadWebApi.Data
         {
         }
 
-        DbSet<Driver> Drivers { get; set; }
-        DbSet<Car> Cars { get; set; }
-        DbSet<Root> Roots { get; set; }
-        DbSet<Expedition> Expeditions { get; set; }
-        DbSet<Gate> Gates { get; set; }
+        public DbSet<Driver> Drivers { get; set; }
+        public DbSet<Car> Cars { get; set; }
+        public DbSet<Root> Roots { get; set; }
+        public DbSet<Expedition> Expeditions { get; set; }
+        public DbSet<Gate> Gates { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
